@@ -1,0 +1,19 @@
+.TabButton{
+  padding: 10px;
+  background:blue;
+  color: lightgrey;
+  margin: 0px;
+  border: 0px;
+}
+.TabButton:hover{
+  background: lightblue;
+}
+.TabButton:focus{
+  color: white;
+  border-bottom: 2px solid red;
+  outline: 0px;
+}
+
+.TabDiv{
+  background: blue;
+}
