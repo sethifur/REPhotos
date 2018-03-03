@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import TabHolder from './TabHolder.js';
 import './App.css';
-//import { Router, Route, Link, hashHistory, IndexRoute } from 'react-router';
-import ReactDOM from 'react-dom';
+import Gallary from './Gallary.js';
 
 class App extends Component {
   render() {
@@ -13,7 +11,7 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React</h1>
         </header>
-        <div><TabHolder /></div>
+        <div><Gallary /></div>
       </div>
     );
   }
